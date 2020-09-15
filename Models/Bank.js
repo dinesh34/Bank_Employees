@@ -11,7 +11,9 @@ var Bank = mongoose.model("Bank",
                     ref: "Branch"
                 }
             ]
-        }
+        },
+        
+        "banks"
 
 );
 

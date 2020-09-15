@@ -16,7 +16,11 @@ var Employee = mongoose.model(
         branch_id:{
             type:mongoose.Schema.Types.ObjectId,
             ref:"Branch"
-        }
+        },
+        roles:[{
+            type:mongoose.Schema.Types.ObjectId,
+            ref:"Role"
+        }]
     },
     
     "employees"

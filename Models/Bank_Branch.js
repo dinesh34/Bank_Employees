@@ -15,7 +15,7 @@ var BankBranch = mongoose.model(
                 ref:"Employee"
             }]
         },
-        
+        "branches"
 
 );
 
